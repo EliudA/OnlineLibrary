@@ -1,0 +1,13 @@
+
+|
+java:S1192/"fDefine a constant instead of duplicating this literal "src/main/resources/static/image/book/" 3 times.(èçÎ
+_
+java:S1192j"IDefine a constant instead of duplicating this literal "bookList" 4 times.(ì·ïÉ
+
+java:S1319‹"jThe type of "bookIdList" should be an interface such as "List" rather than the implementation "ArrayList".(‹å³É
+h
+java:S2095/"RUse try-with-resources or close this "BufferedOutputStream" in a "finally" clause.(èçÎ
+m
+java:S2095Z"RUse try-with-resources or close this "BufferedOutputStream" in a "finally" clause.(ßÌ ¸ÿÿÿÿÿ
+V	java:S125="<This block of commented-out lines of code should be removed.(Ïé·±ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ïé·±ÿÿÿÿÿ

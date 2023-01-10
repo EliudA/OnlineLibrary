@@ -1,0 +1,16 @@
+
+n
+java:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÁÐë3
+o
+java:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÈýŽ·
+W
+java:S4973x"<Strings and Boxed types should be compared using "equals()".(ÚŒë§øÿÿÿÿ
+k
+java:S3655>"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(˜Ãùõúÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(ê›‡
+H
+java:S3416"2Update this logger to use "UserServiceImpl.class".(›”ß
+=
+java:S1905u"'Remove this unnecessary cast to "List".(ãÝØ‡
+C
+java:S1905„"'Remove this unnecessary cast to "List".(¸ðÁËÿÿÿÿÿ

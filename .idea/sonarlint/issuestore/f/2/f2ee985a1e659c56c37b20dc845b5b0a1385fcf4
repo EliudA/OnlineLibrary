@@ -1,0 +1,10 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï«Œ€şÿÿÿÿ
+z
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "saltStr".(º¥Î‚øÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ñç—şÿÿÿÿ
+4
+java:S2119"Save and re-use this "Random".(–áÍÈ
+.
+java:S2140"Use "nextInt()" instead.(ææñÛ

@@ -1,0 +1,67 @@
+
+a
+java:S1192{"KDefine a constant instead of duplicating this literal "countyList" 3 times.(˜íÕ«
+c
+java:S1192u"MDefine a constant instead of duplicating this literal "cartItemList" 4 times.(ÿÏî
+g
+java:S1192^"RDefine a constant instead of duplicating this literal "emptyShippingList" 5 times.(ï¦ÅA
+l
+java:S1192T"QDefine a constant instead of duplicating this literal "userShippingList" 3 times.(‡¯Òùÿÿÿÿ
+k
+java:S1192U"PDefine a constant instead of duplicating this literal "userPaymentList" 3 times.(°æÿÿÿÿÿÿ
+h
+java:S1192v"MDefine a constant instead of duplicating this literal "shoppingCart" 3 times.(İê˜¡ûÿÿÿÿ
+f
+java:S1192r"PDefine a constant instead of duplicating this literal "shippingAddress" 5 times.(Öà„‚
+^
+java:S1192s"HDefine a constant instead of duplicating this literal "payment" 3 times.(…¦Â•
+j
+java:S1192t"ODefine a constant instead of duplicating this literal "billingAddress" 3 times.(ß’À¹üÿÿÿÿ
+g
+java:S1192X"QDefine a constant instead of duplicating this literal "emptyPaymentList" 5 times.(ÆÏİÑ
+j
+java:S1192@"ODefine a constant instead of duplicating this literal "badRequestPage" 3 times.(‘ºŞÓøÿÿÿÿ
+e
+java:S1192„"IDefine a constant instead of duplicating this literal "checkout" 3 times.(‰ùéìşÿÿÿÿ
+W
+java:S4973?"<Strings and Boxed types should be compared using "equals()".(À®µùÿÿÿÿ
+X
+java:S4973Ë"<Strings and Boxed types should be compared using "equals()".(ÿ×çèüÿÿÿÿ
+X
+java:S4973û"<Strings and Boxed types should be compared using "equals()".(éŒÈÉşÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(…ê©ë
+Q	java:S125"<This block of commented-out lines of code should be removed.(šô‰
+Q	java:S125""<This block of commented-out lines of code should be removed.(µ¬ëİ
+h
+java:S37768"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(âØ¦¥
+[
+java:S1854c"@Remove this useless assignment to local variable "shoppingCart".(áÄ—İøÿÿÿÿ
+Y
+java:S1155E">Use isEmpty() to check whether the collection is empty or not.(Ûô“úÿÿÿÿ
+]
+java:S1126W"BReplace this if-then-else statement by a single method invocation.(È¥›¶üÿÿÿÿ
+Y
+java:S1155W">Use isEmpty() to check whether the collection is empty or not.(È¥›¶üÿÿÿÿ
+]
+java:S1126]"BReplace this if-then-else statement by a single method invocation.(ƒÄœÙûÿÿÿÿ
+Y
+java:S1155]">Use isEmpty() to check whether the collection is empty or not.(ƒÄœÙûÿÿÿÿ
+L
+java:S1481c"1Remove this unused "shoppingCart" local variable.(áÄ—İøÿÿÿÿ
+U
+java:S1854¯"9Remove this useless assignment to local variable "order".(ˆ¥ßËùÿÿÿÿ
+a
+java:S4488‡"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(æ¢Å»
+F
+java:S1481¯"*Remove this unused "order" local variable.(ˆ¥ßËùÿÿÿÿ
+R	java:S125±"<This block of commented-out lines of code should be removed.(€µ¾Ã
+^
+java:S1126è"BReplace this if-then-else statement by a single method invocation.(È¥›¶üÿÿÿÿ
+Z
+java:S1155è">Use isEmpty() to check whether the collection is empty or not.(È¥›¶üÿÿÿÿ
+^
+java:S1126š"BReplace this if-then-else statement by a single method invocation.(ƒÄœÙûÿÿÿÿ
+Z
+java:S1155š">Use isEmpty() to check whether the collection is empty or not.(ƒÄœÙûÿÿÿÿ
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8âäãáÒ0

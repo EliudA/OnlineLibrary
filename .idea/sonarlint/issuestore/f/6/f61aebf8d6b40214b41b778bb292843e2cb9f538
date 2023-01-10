@@ -1,0 +1,21 @@
+
+\	java:S107:"BConstructor has 12 parameters, which is greater than 7 authorized.(³ž­‘þÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÇõÀ¸úÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÇõÀ¸úÿÿÿÿ
+I
+java:S1948&".Make "shoppingCart" transient or serializable.(‘ äÝùÿÿÿÿ
+M
+java:S1948)"2Make "userShippingList" transient or serializable.(îÐÜ„ÿÿÿÿÿ
+L
+java:S1948,"1Make "userPaymentList" transient or serializable.(˜§‹–øÿÿÿÿ
+A
+java:S1948/"+Make "orderList" transient or serializable.(³º‰
+A
+java:S19483"+Make "userRoles" transient or serializable.(×ƒÉ±
+V	java:S125"<This block of commented-out lines of code should be removed.(™þÉñüÿÿÿÿ
+N
+java:S1135©"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+N
+java:S1135®"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+N
+java:S1135³"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ

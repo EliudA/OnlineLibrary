@@ -1,0 +1,42 @@
+
+\	java:S112¹"FDefine and throw a dedicated exception instead of using a generic one.(Ò‡à§
+b
+java:S1192‰"KDefine a constant instead of duplicating this literal "myProfile" 17 times.(ÍÂÏÛ
+p
+java:S1192‚"YDefine a constant instead of duplicating this literal "listOfShippingAddresses" 12 times.(çû…è
+h
+java:S1192{"RDefine a constant instead of duplicating this literal "userShippingList" 14 times.(öÀÎ
+o
+java:S1192"SDefine a constant instead of duplicating this literal "listOfCreditCards" 11 times.(€åç†ıÿÿÿÿ
+k
+java:S1192‘"ODefine a constant instead of duplicating this literal "badRequestPage" 5 times.(‘ºŞÓøÿÿÿÿ
+f
+java:S1192|"KDefine a constant instead of duplicating this literal "orderList" 15 times.(Øåğ¾úÿÿÿÿ
+c
+java:S1192"MDefine a constant instead of duplicating this literal "userShipping" 4 times.(¦«˜…
+o
+java:S1192•"SDefine a constant instead of duplicating this literal "classActiveBilling" 6 times.(¾Şá‹úÿÿÿÿ
+l
+java:S1192z"QDefine a constant instead of duplicating this literal "userPaymentList" 13 times.(èÚÎîùÿÿÿÿ
+k
+java:S1192¤"TDefine a constant instead of duplicating this literal "classActiveShipping" 6 times.(§«‚ô
+E
+java:S1066¾"/Merge this if statement with the enclosing one.(ˆœàq
+K
+java:S1066Æ"/Merge this if statement with the enclosing one.(£ïäúÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Å¿ÿ±ùÿÿÿÿ
+Q	java:S125!"<This block of commented-out lines of code should be removed.(ç”‰“
+Q	java:S1255"<This block of commented-out lines of code should be removed.(Ú°à¬
+W	java:S125„"<This block of commented-out lines of code should be removed.(…•‡£ÿÿÿÿÿ
+W	java:S125¼"<This block of commented-out lines of code should be removed.(…•‡£ÿÿÿÿÿ
+W	java:S125Ö"<This block of commented-out lines of code should be removed.(…•‡£ÿÿÿÿÿ
+W	java:S125™"<This block of commented-out lines of code should be removed.(…•‡£ÿÿÿÿÿ
+W	java:S125µ"<This block of commented-out lines of code should be removed.(…•‡£ÿÿÿÿÿ
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(¿Äìœ
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(›”ıæıÿÿÿÿ
+T	java:S106«"9Replace this use of System.out or System.err by a logger.(ƒ—äÓşÿÿÿÿ
+W	java:S125Í"<This block of commented-out lines of code should be removed.(¹˜ñóûÿÿÿÿ
+R	java:S125ê"<This block of commented-out lines of code should be removed.(Ëé£
+R	java:S125ì"<This block of commented-out lines of code should be removed.(Úšêñ
+W	java:S125î"<This block of commented-out lines of code should be removed.(Èä½“ÿÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(…•‡£ÿÿÿÿÿ
