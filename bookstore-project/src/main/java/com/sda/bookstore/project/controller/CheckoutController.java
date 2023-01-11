@@ -9,10 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.security.Principal;
 import java.time.LocalDate;
@@ -42,15 +39,14 @@ public class CheckoutController {
     private UserPaymentService userPaymentService;
     private OrderService orderService;
 
-    @RequestMapping("/checkout")
+   // @RequestMapping("/checkout")
+    @GetMapping("/checkout")
     public String checkout(
             @RequestParam("id") Long cartId,
             @RequestParam(value="missingRequiredField", required=false) boolean missingRequiredField,
             Model model, Principal principal
     ) {
         User user = userService.findByUsername(principal.getName());
-
-
         if(cartId != user.getShoppingCart().getId()) {
 
             return "badRequestPage";
@@ -126,7 +122,8 @@ public class CheckoutController {
         return "checkout";
     }
 
-    @RequestMapping(value="/checkout", method=RequestMethod.POST)
+   // @RequestMapping(value="/checkout", method=RequestMethod.POST)
+    @PostMapping("/checkout")
     public String checkoutPost(
             @ModelAttribute("shippingAddress") ShippingAddress shippingAddress,
             @ModelAttribute("billingAddress") BillingAddress billingAddress,
@@ -186,7 +183,8 @@ public class CheckoutController {
         return "orderSubmittedPage";
     }
 
-    @RequestMapping("/setShippingAddress")
+    //@RequestMapping("/setShippingAddress")
+    @GetMapping("/setShippingAddress")
     public String setShippingAddress(
             @RequestParam("userShippingId") Long userShippingId,
             Principal principal, Model model
@@ -230,7 +228,8 @@ public class CheckoutController {
         }
     }
 
-    @RequestMapping("/setPaymentMethod")
+   // @RequestMapping("/setPaymentMethod")
+    @GetMapping("/setPaymentMethod")
     public String setPaymentMethod(
             @RequestParam("userPaymentId") Long userPaymentId,
             Principal principal, Model model
