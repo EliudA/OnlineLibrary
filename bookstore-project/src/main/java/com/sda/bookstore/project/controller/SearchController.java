@@ -8,10 +8,7 @@ import com.sda.bookstore.project.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.security.Principal;
 import java.util.List;
@@ -56,7 +53,7 @@ public class SearchController {
     }
 
     //@RequestMapping("/searchBook")
-    @GetMapping("/searchBook")
+    @PostMapping("/searchBook")
     public String searchBook(
             @ModelAttribute("keyword") String keyword,
             Principal principal, Model model) {

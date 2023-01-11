@@ -45,13 +45,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         return new UserSecurityService();
     }
-/*
-    @Bean
-    public static PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
 
- */
+    /*
+        @Bean
+        public static PasswordEncoder passwordEncoder() {
+            return new BCryptPasswordEncoder();
+        }
+
+     */
     private static final String[] PUBLIC_MATCHERS = {
             "/css/**",
             "/js/**",
@@ -69,6 +70,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             "/searchBook",
             "/"
     };
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
@@ -85,7 +87,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
                 .mvcMatchers("/home/**", "/adminhome/**", "/book/**", "/myAdmin").hasAuthority("ROLE_ADMIN")
                 .mvcMatchers("/home/**", "/check/**", "/search/**", "/shoppingCart/**").hasAuthority("ROLE_USER")
-                .anyRequest().permitAll();
+                .anyRequest()
+                //.authenticated();
+                .permitAll();
     }
 
     @Bean
