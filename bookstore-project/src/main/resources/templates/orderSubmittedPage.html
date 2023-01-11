@@ -33,15 +33,15 @@
                 <hr/>
                 <div class="col-2"></div>
                 <div class="col-2">
-                    <a th:href="@{/bookDetail(id=${cartItem.book.id})}">
+                    <a th:href="@{/bookDetail(id=${cartItem.book.book_id})}">
                         <img class="img-fluid shelf"
-                             th:src="#{adminPath}+@{/image/book/}+${cartItem.book.id}+'.jpg'"
+                             th:src="#{adminPath}+@{/image/book/}+${cartItem.book.book_id}+'.jpg'"
                              style="width: 70px;"/>
                     </a>
                 </div>
                 <div class="form-group col-6">
                     <div style="margin-left: 50px;">
-                        <a th:href="@{/bookDetail?id=}+${cartItem.book.id}"><h4
+                        <a th:href="@{/bookDetail?id=}+${cartItem.book.book_id}"><h4
                                 th:text="${cartItem.book.title}"></h4></a>
                     </div>
                 </div>

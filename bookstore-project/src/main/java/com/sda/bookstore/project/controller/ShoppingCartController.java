@@ -50,7 +50,7 @@ public class ShoppingCartController {
     }
 
     //@RequestMapping("/addItem")
-    @GetMapping("/addItem")
+    @PostMapping("/addItem")
     public String addItem(
             @ModelAttribute("book") Book book,
             @ModelAttribute("qty") String qty,
@@ -62,15 +62,18 @@ public class ShoppingCartController {
         if (Integer.parseInt(qty) > book.getInStockNumber()) {
             model.addAttribute("notEnoughStock", true);
             //return "forward:/home/bookDetail?id="+book.getBook_id();
-            return "forward:/bookDetail?id=" + book.getBook_id();
-            //return "forward:/shoppingCart/cart";
+           // return "forward:/bookDetail?id=" + book.getBook_id();
+            return "forward:/cart";
         }
 
         CartItem cartItem = cartItemService.addBookToCartItem(book, user, Integer.parseInt(qty));
         model.addAttribute("addBookSuccess", true);
+        model.addAttribute("book", book);
 
         //return "forward:/home/bookDetail?id="+book.getBook_id();
-        return "forward:/bookDetail?id=" + book.getBook_id();
+       // return "forward:/bookDetail?id=" + book.getBook_id();
+        return "bookDetail";
+
     }
 
     // @RequestMapping("/updateCartItem")

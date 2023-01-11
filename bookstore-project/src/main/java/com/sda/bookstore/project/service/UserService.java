@@ -3,6 +3,7 @@ package com.sda.bookstore.project.service;
 
 
 import com.sda.bookstore.project.model.*;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.Set;
