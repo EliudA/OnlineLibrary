@@ -19,11 +19,11 @@ public class Payment {
 
 	@OneToOne
 	private Order order;
-	/*
+
 	@OneToOne(cascade = CascadeType.ALL, mappedBy = "userPayment")
 	private UserBilling userBilling;
 
-	 */
+
 	
 	
 
@@ -31,7 +31,7 @@ public class Payment {
 	}
 
 	public Payment(String type, String cardName, String cardNumber, int expiryMonth, int expiryYear, int cvc,
-                   String holderName, Order order) {
+                   String holderName,UserBilling userBilling, Order order) {
 		this.type = type;
 		this.cardName = cardName;
 		this.cardNumber = cardNumber;
@@ -40,7 +40,7 @@ public class Payment {
 		this.cvc = cvc;
 		this.holderName = holderName;
 		this.order = order;
-		//this.userBilling = userBilling;
+		this.userBilling = userBilling;
 	}
 
 	public Long getPayment_id() {
@@ -114,7 +114,7 @@ public class Payment {
 	public void setOrder(Order order) {
 		this.order = order;
 	}
-/*
+
 	public UserBilling getUserBilling() {
 		return userBilling;
 	}
@@ -123,7 +123,7 @@ public class Payment {
 		this.userBilling = userBilling;
 	}
 
- */
+
 	
 	
 }
