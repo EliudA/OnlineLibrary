@@ -77,7 +77,7 @@ public class ShoppingCartController {
     }
 
     // @RequestMapping("/updateCartItem")
-    @GetMapping("/updateCartItem")
+    @PostMapping("/updateCartItem")
     public String updateshoppingCart(
             @ModelAttribute("id") Long cartItemId,
             @ModelAttribute("qty") int qty
@@ -89,8 +89,7 @@ public class ShoppingCartController {
         // return "forward:/shoppingCart/cart";
         return "forward:/cart";
     }
-
-    //@RequestMapping("/removeItem")
+       //@RequestMapping("/removeItem")
     @GetMapping("/removeItem")
     public String removeItem(@RequestParam("id") Long cartItemId) {
         cartItemService.removeCartItem(cartItemService.findById(cartItemId));
