@@ -46,13 +46,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         return new UserSecurityService();
     }
 
-    /*
-        @Bean
-        public static PasswordEncoder passwordEncoder() {
-            return new BCryptPasswordEncoder();
-        }
-
-     */
     private static final String[] PUBLIC_MATCHERS = {
             "/css/**",
             "/js/**",
