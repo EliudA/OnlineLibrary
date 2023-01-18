@@ -25,7 +25,8 @@ public class MailConstructor {
             String contextPath, Locale locale, String token, User user, String password
     ) {
         String url = contextPath+"/newUser?token="+token;
-        String message = "\nPlease click on this link to verify your email and edit your personal information. Your password is: \n"+password;
+        String message = "\nPlease click on this link to verify your email and edit your personal information." +
+                " Your password is: \n"+password;
         SimpleMailMessage email = new SimpleMailMessage();
         email.setTo(user.getEmail());
         email.setSubject("Inspire Bookstore - New User");
@@ -48,7 +49,7 @@ public class MailConstructor {
                 email.setTo(user.getEmail());
                 email.setSubject("Order Confirmation - " + order.getOrder_id());
                 email.setText(text, true);
-                email.setFrom(new InternetAddress("shopnobaazmailsender@gmail.com"));
+                email.setFrom(new InternetAddress("inspirebookstore23@gmail.com"));
             }
         };
     }
