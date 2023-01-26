@@ -59,7 +59,7 @@
             <!--display products in cart-->
             <div th:each="cartItem : ${cartItemList}">
                 <!-- <form th:action="@{/shoppingCart/updateCartItem}" method="post">-->
-                 <form th:action="@{/updateCartItem}" method="post">
+                 <form th:action="@{/updateCartItem}" method="get">
 
                     <hr/>
 
